@@ -59,8 +59,8 @@ data:extend({
     },
 
     particle_buffer_size = 65,
-    particle_spawn_interval = 2,
-    particle_spawn_timeout = 2,
+    particle_spawn_interval = 1,
+    particle_spawn_timeout = 1,
     particle_vertical_acceleration = 0.005 * 0.6,
     particle_horizontal_speed = 0.25,
     particle_horizontal_speed_deviation = 0.0035,
@@ -103,18 +103,6 @@ data:extend({
       animation_speed = 2,
       scale = 0.75,
       shift = {0, 0},
-    },
-
-    shadow =
-    {
-      filename = "__base__/graphics/entity/acid-projectile-purple/acid-projectile-purple-shadow.png",
-      line_length = 5,
-      width = 28,
-      height = 16,
-      frame_count = 33,
-      priority = "high",
-      scale = 0.5,
-      shift = {-0.09 * 0.5, 0.395 * 0.5}
     },
 
     particle =
