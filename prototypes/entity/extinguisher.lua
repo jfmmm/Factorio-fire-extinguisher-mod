@@ -15,7 +15,7 @@ data:extend({
     spread_duration = 600,
     spread_delay = 120,
     start_scale = 1,
-  end_scale = 2,
+    end_scale = 2,
     color = make_color(1, 1, 1, 0.1),
     cyclic = true,
     affected_by_wind = true,
@@ -97,7 +97,7 @@ data:extend({
     {
       {
         name = "extinguisher-smoke",
-        frequency = 0.15,
+        frequency = 0.10,
         position = {0.0, 0},
         starting_frame_deviation = 60
       }
@@ -109,8 +109,8 @@ data:extend({
     particle_vertical_acceleration = 0.005 * 0.6,
     particle_horizontal_speed = 0.25,
     particle_horizontal_speed_deviation = 0.0035,
-    particle_start_alpha = 0.8,
-    particle_end_alpha = 1,
+    particle_start_alpha = 1,
+    particle_end_alpha = 0.8,
     particle_start_scale = 0.1,
     particle_loop_frame_count = 3,
     particle_fade_out_threshold = 0.9,
